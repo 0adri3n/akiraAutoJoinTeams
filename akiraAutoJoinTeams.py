@@ -73,16 +73,16 @@ def login():
 	emailField.click()
 	emailField.send_keys(CREDS['email'])
 	driver.find_element_by_xpath(
-		'//*[@id="idSIButton9"]').click()  # Next button
+		'//*[@id="idSIButton9"]').click() 
 	time.sleep(4)
 	passwordField = driver.find_element_by_xpath('//*[@id="i0118"]')
 	passwordField.click()
 	passwordField.send_keys(CREDS['passwd'])
 	driver.find_element_by_xpath(
-		'//*[@id="idSIButton9"]').click()  # Sign in button
+		'//*[@id="idSIButton9"]').click()
 	time.sleep(5)
 	driver.find_element_by_xpath(
-		'//*[@id="idSIButton9"]').click()  # remember login
+		'//*[@id="idSIButton9"]').click() 
 	time.sleep(5)
 	joinclass(classname)
 
