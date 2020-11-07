@@ -12,7 +12,7 @@ A bot to join online classes and wait for it.
 
 -Chrome Driver: https://sites.google.com/a/chromium.org/chromedriver/home
 
-Add the driver to PATH (Environment Variables): https://docs.alfresco.com/4.2/tasks/fot-addpath.html (Add path to the Chrom Driver executable!)
+Add the driver to PATH (Environment Variables): https://docs.alfresco.com/4.2/tasks/fot-addpath.html (Add path of the Chrome Driver executable!)
 
 
 # Start using it:
